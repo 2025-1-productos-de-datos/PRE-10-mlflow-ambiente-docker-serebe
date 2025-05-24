@@ -9,3 +9,8 @@ COPY data/ data/
 COPY homework/ homework/
 COPY setup.py setup.py
 RUN pip3 install -e .
+
+
+# docker_env:
+#     image:  jdvelasq/mlflow:example
+#     build_context: .
