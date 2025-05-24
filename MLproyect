@@ -1,5 +1,9 @@
 name: Proyecto de demostracion
 
+# docker_env:
+#     image: jdvelasq/mlflow:example
+#     build_context: .
+
 entry_points:
     elasticnet:
         parameters:
